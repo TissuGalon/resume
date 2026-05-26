@@ -1,0 +1,211 @@
+%-------------------------
+% Resume - Muhammad Kholis
+%-------------------------
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{geometry}
+\usepackage{newtxtext,newtxmath} % Times New Roman font
+\usepackage[fontsize=9.4pt]{scrextend}
+
+\geometry{
+  a4paper,
+  top=0.35in,
+  bottom=0.35in,
+  left=0.45in,
+  right=0.45in
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{5pt} % fix fancyhdr warning
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule]
+\titlespacing{\section}{0pt}{9.5pt}{4.5pt}
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{#1}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \item\vspace{0.5pt}
+    \begin{tabular*}{\linewidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\resumeProject}[3]{
+  \item\vspace{0.5pt}
+    {\small #1 \hfill \textbf{#2}}\\[1pt]
+    \small{#3}\vspace{0.5pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}, itemsep=2.5pt, parsep=0pt, topsep=2.5pt, partopsep=0pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, itemsep=1pt, parsep=0pt, topsep=1pt, partopsep=0pt, label=\raisebox{0.25ex}{\tiny$\bullet$}]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{1.5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%---------- HEADING ----------
+\begin{center}
+  {\Huge \bfseries Muhammad Kholis} \\[4pt]
+  \small
+  \faPhone\ +62 851-6178-7501 \quad | \quad
+  \faEnvelope\ \href{mailto:parzivalxdd@gmail.com}{parzivalxdd@gmail.com} \quad | \quad
+  \faMapMarker*\ Kota Langsa, Indonesia \\[2pt]
+  \faGlobe\ \href{https://portfolio-mkholis.vercel.app/}{portfolio-mkholis.vercel.app} \quad | \quad
+  \faGithub\ \href{https://github.com/TissuGalon}{github.com/TissuGalon} \quad | \quad
+  \faLinkedin\ \href{https://www.linkedin.com/in/muhammad-kholis-51ba57195/}{linkedin.com/in/muhammad-kholis-51ba57195}
+\end{center}\vspace{-2pt}
+
+%---------- SUMMARY ----------
+\section{Summary}
+Final-year Informatics Technology student at Politeknik Negeri Lhokseumawe with hands-on experience building web and mobile applications since 2022. Proficient in Flutter, Next.js, React, Firebase, and Supabase. Passionate about crafting clean user interfaces and delivering impactful digital solutions through freelance projects and internship experience.
+
+%---------- SKILLS ----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0in, label={}, nosep]
+  \small\item{
+    \textbf{Languages}{: Dart, JavaScript, PHP, Python, HTML/CSS} \\[2pt]
+    \textbf{Frameworks \& Libraries}{: Flutter, Next.js, React, Tailwind CSS} \\[2pt]
+    \textbf{Backend \& Databases}{: Firebase, Supabase} \\[2pt]
+    \textbf{Tools \& Design}{: Figma, Android Studio, Git/GitHub, Photoshop, Blender, Canva} \\[2pt]
+    \textbf{Soft Skills}{: Critical Thinking, Teamwork, Communication}
+  }
+\end{itemize}
+
+%---------- EXPERIENCE ----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Mobile Developer Intern}{Aug 2025 -- Jan 2026}
+    {Dinas Komunikasi, Informatika dan Persandian Aceh}{Banda Aceh, Indonesia}
+    \resumeItemListStart
+      \resumeItem{Developed and maintained mobile applications for the provincial government's digital services.}
+      \resumeItem{Collaborated with the IT team to deliver functional, user-friendly government applications.}
+      \resumeItem{Utilized Flutter and Firebase for cross-platform mobile development.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Freelance Full Stack \& Mobile Developer}{2022 -- Present}
+    {Self-employed}{Remote}
+    \resumeItemListStart
+      \resumeItem{Delivered multiple client projects including web applications and mobile apps.}
+      \resumeItem{Built end-to-end solutions from UI/UX design to backend integration.}
+      \resumeItem{Worked with modern tech stacks including Next.js, React, Flutter, Firebase, and Supabase.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%---------- PROJECTS ----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeProject
+    {\textbf{Ticzy -- Productivity App} $|$ \emph{Flutter, Firebase}}{Google Play Store}
+    {Daily productivity management app featuring To-Do, Finance Tracker, Scheduler, and Notes modules. Published on Google Play Store.}
+
+  \resumeProject
+    {\textbf{EMTER -- Emergency Center} $|$ \emph{Flutter, Firebase}}{Mobile}
+    {Emergency response app featuring real-time chat, interactive maps, and quick-call functionality.}
+
+  \resumeProject
+    {\textbf{E-Konsul} $|$ \emph{Flutter, Supabase}}{Mobile}
+    {Consultation app connecting students and lecturers at Politeknik Negeri Lhokseumawe.}
+
+  \resumeProject
+    {\textbf{UKM POLICY Website} $|$ \emph{Next.js, Tailwind CSS}}{Web}
+    {Official responsive website for the Polytechnic Linux Community with dynamic content management.}
+
+  \resumeProject
+    {\textbf{Parzello Website} $|$ \emph{Next.js, Tailwind CSS}}{Web}
+    {Official website for Parzello digital agency featuring a modern and clean UI design.}
+
+  \resumeProject
+    {\textbf{Centrepoint} $|$ \emph{Flutter, Firebase}}{Mobile}
+    {Community management application for the POLICY organization at Politeknik Negeri Lhokseumawe.}
+
+\resumeSubHeadingListEnd
+
+%---------- EDUCATION ----------
+\section{Education}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Politeknik Negeri Lhokseumawe}{2022 -- Present}
+    {Diploma -- Teknologi Informasi dan Komputer}{GPA: 3.45 / 4.00}
+
+  \resumeSubheading
+    {SMK Negeri 2 Langsa}{2019 -- 2022}
+    {Rekayasa Perangkat Lunak}{Final Score: 84.81}
+
+\resumeSubHeadingListEnd
+
+%---------- ACHIEVEMENTS ----------
+\section{Achievements \& Certifications}
+\resumeSubHeadingListStart
+
+  \resumeProject
+    {\textbf{Finalist -- UI/UX, Computer Multi-Challenge Day 2025} $|$ \emph{Universitas Syiah Kuala}}{Nov 2025}
+    {Competed in the UI/UX design category at a national-level multi-challenge event.}
+
+  \resumeProject
+    {\textbf{Finalist -- Hackathon KMIPN VI} $|$ \emph{Politeknik Negeri Jakarta}}{Mar 2024}
+    {Finalist in the National Polytechnic Informatics Competition (KMIPN) VI. Credential No. 1232/PL3/KM.05/03/2024.}
+
+\resumeSubHeadingListEnd
+
+%---------- ACTIVITIES ----------
+\section{Activities}
+\resumeSubHeadingListStart
+
+  \resumeProject
+    {\textbf{Active Member -- UKM POLICY (Linux Community)} $|$ \emph{Politeknik Negeri Lhokseumawe}}{2023 -- Present}
+    {Contributed to fostering open-source development and collaboration among students.}
+
+  \resumeProject
+    {\textbf{Organizer -- Komit PNL} $|$ \emph{Politeknik Negeri Lhokseumawe}}{2024}
+    {Organized technology-focused events and workshops for polytechnic students.}
+
+\resumeSubHeadingListEnd
+
+%---------- LANGUAGES ----------
+\section{Languages}
+\begin{itemize}[leftmargin=0in, label={}, nosep]
+  \small\item{
+    \textbf{Indonesian}{: Native} \quad | \quad
+    \textbf{English}{: B2 -- Upper Intermediate}
+  }
+\end{itemize}
+
+%-------------------------------------------
+\end{document}

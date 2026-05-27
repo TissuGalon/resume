@@ -1,0 +1,220 @@
+%-------------------------
+% Resume - Muhammad Kholis (Indonesian Version)
+%-------------------------
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{geometry}
+\usepackage{newtxtext,newtxmath} % Times New Roman font
+\usepackage[fontsize=9.2pt]{scrextend}
+
+\geometry{
+  a4paper,
+  top=0.25in,
+  bottom=0.25in,
+  left=0.45in,
+  right=0.45in
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{5pt} % fix fancyhdr warning
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule]
+\titlespacing{\section}{0pt}{6.5pt}{3pt}
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{#1}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \item\vspace{0.5pt}
+    \begin{tabular*}{\linewidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\resumeProject}[3]{
+  \item\vspace{0.5pt}
+    {\small #1 \hfill \textbf{#2}}\\[1pt]
+    \small{#3}\vspace{0.5pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}, itemsep=1.2pt, parsep=0pt, topsep=1.2pt, partopsep=0pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, itemsep=0.5pt, parsep=0pt, topsep=0.5pt, partopsep=0pt, label=\raisebox{0.25ex}{\tiny$\bullet$}]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0.5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%---------- HEADING ----------
+\begin{center}
+  {\Huge \bfseries Muhammad Kholis} \\[4pt]
+  \small
+  \faPhone\ +62 851-6178-7501 \quad | \quad
+  \faEnvelope\ \href{mailto:parzivalxdd@gmail.com}{parzivalxdd@gmail.com} \quad | \quad
+  \faMapMarker*\ Kota Langsa, Indonesia \\[2pt]
+  \faGlobe\ \href{https://portfolio-mkholis.vercel.app/}{portfolio-mkholis.vercel.app} \quad | \quad
+  \faGithub\ \href{https://github.com/TissuGalon}{github.com/TissuGalon} \quad | \quad
+  \faLinkedin\ \href{https://www.linkedin.com/in/muhammad-kholis-51ba57195/}{linkedin.com/in/muhammad-kholis-51ba57195}
+\end{center}\vspace{-2pt}
+
+%---------- SUMMARY ----------
+\section{Ringkasan}
+Mahasiswa tingkat akhir Teknik Informatika di Politeknik Negeri Lhokseumawe dengan pengalaman praktis dalam membangun aplikasi web dan mobile sejak tahun 2022. Menguasai Flutter, Next.js, React, Firebase, dan Supabase. Memiliki antusiasme tinggi dalam merancang antarmuka pengguna yang bersih dan menghadirkan solusi digital yang berdampak melalui proyek lepas (freelance) serta pengalaman magang.
+
+%---------- SKILLS ----------
+\section{Keahlian Teknis}
+\begin{itemize}[leftmargin=0in, label={}, nosep]
+  \small\item{
+    \textbf{Bahasa Pemrograman}{: Dart, JavaScript, PHP, Python, HTML/CSS} \\[2pt]
+    \textbf{Framework \& Library}{: Flutter, Next.js, React, Tailwind CSS} \\[2pt]
+    \textbf{Backend \& Database}{: Firebase, Supabase} \\[2pt]
+    \textbf{Alat \& Desain}{: Figma, Android Studio, GitHub, Photoshop, Blender, Canva} \\[2pt]
+    \textbf{Soft Skill}{: Critical Thinking, Kerja Sama Tim, Komunikasi}
+  }
+\end{itemize}
+
+%---------- EXPERIENCE ----------
+\section{Pengalaman Kerja}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Fullstack Developer}{23 Apr 2026 -- Sekarang}
+    {Tapugha Tech}{Remot}
+    \resumeItemListStart
+      \resumeItem{Mengembangkan aplikasi web menggunakan Golang untuk layanan backend dan Next.js untuk frontend.}
+      \resumeItem{Mengimplementasikan kontainerisasi dengan Docker guna menyelaraskan lingkungan pengembangan dan produksi.}
+    \resumeItemListEnd
+
+
+  \resumeSubheading
+    {Mobile Developer Intern}{Agu 2025 -- Jan 2026}
+    {Dinas Komunikasi, Informatika dan Persandian Aceh}{Banda Aceh, Indonesia}
+    \resumeItemListStart
+      \resumeItem{Mengembangkan dan memelihara aplikasi mobile untuk layanan digital pemerintah provinsi.}
+      \resumeItem{Berkolaborasi dengan tim IT untuk menghadirkan aplikasi pemerintah yang fungsional dan ramah pengguna.}
+      \resumeItem{Menggunakan Flutter dan Firebase untuk pengembangan aplikasi mobile lintas platform.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Freelance Full Stack \& Mobile Developer}{2022 -- Sekarang}
+    {Self-employed}{Remot}
+    \resumeItemListStart
+      \resumeItem{Menyelesaikan berbagai proyek klien termasuk aplikasi web dan aplikasi mobile.}
+      \resumeItem{Membangun solusi end-to-end mulai dari desain UI/UX hingga integrasi backend.}
+      \resumeItem{Bekerja dengan tech stack modern termasuk Next.js, React, Flutter, Firebase, dan Supabase.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%---------- PROJECTS ----------
+\section{Proyek}
+\resumeSubHeadingListStart
+
+  \resumeProject
+    {\textbf{ZelloPOS -- Sistem POS UMKM} $|$ \emph{Flutter, Next.js, Supabase}}{Google Play Store \& Web}
+    {Sistem Point of Sale (POS) lintas platform yang dirancang untuk UMKM, menampilkan pelacakan inventaris waktu nyata, pemrosesan transaksi yang aman, serta sinkronisasi multi-platform terpadu. Dipublikasikan di Google Play Store.}
+
+  \resumeProject
+    {\textbf{Ticzy -- Money Tracker App} $|$ \emph{Flutter, Firebase}}{Google Play Store}
+    {Aplikasi money tracker pribadi yang dilengkapi dengan pencatatan transaksi komprehensif, kontrol anggaran bulanan, dan analitik keuangan interaktif. Dipublikasikan di Google Play Store.}
+
+  \resumeProject
+    {\textbf{Parzello Website} $|$ \emph{Next.js, Tailwind CSS}}{Web}
+    {Situs web resmi untuk agensi digital Parzello yang menampilkan desain UI yang modern dan bersih.}
+
+  \resumeProject
+    {\textbf{UKM POLICY Website} $|$ \emph{Next.js, Tailwind CSS}}{Web}
+    {Situs web responsif resmi untuk Unit Kegiatan Mahasiswa Politeknik Linux Community dengan manajemen konten dinamis.}
+
+  \resumeProject
+    {\textbf{EMTER -- Emergency Center} $|$ \emph{Flutter, Firebase}}{Mobile}
+    {Aplikasi tanggap darurat yang dilengkapi dengan fitur obrolan langsung (real-time chat), peta interaktif, dan fungsi panggilan cepat.}
+
+  \resumeProject
+    {\textbf{Centrepoint} $|$ \emph{Flutter, Firebase}}{Mobile}
+    {Aplikasi manajemen komunitas untuk organisasi POLICY di Politeknik Negeri Lhokseumawe.}
+
+\resumeSubHeadingListEnd
+
+%---------- EDUCATION ----------
+\section{Pendidikan}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Politeknik Negeri Lhokseumawe}{2022 -- Sekarang}
+    {Teknik Informatika}{IPK: 3.53 / 4.00}
+
+  \resumeSubheading
+    {SMK Negeri 2 Kota Langsa}{2019 -- 2022}
+    {Rekayasa Perangkat Lunak}{Nilai Akhir: 84.81}
+
+\resumeSubHeadingListEnd
+
+%---------- ACHIEVEMENTS ----------
+\section{Prestasi \& Sertifikasi}
+\resumeSubHeadingListStart
+
+  \resumeProject
+    {\textbf{Finalis -- UI/UX, Computer Multi-Challenge Day 2025} $|$ \emph{Universitas Syiah Kuala}}{Nov 2025}
+    {Berkompetisi dalam kategori desain UI/UX pada ajang multi-tantangan tingkat nasional.}
+
+  \resumeProject
+    {\textbf{Finalis -- Hackathon KMIPN VI} $|$ \emph{Politeknik Negeri Jakarta}}{Mar 2024}
+    {Finalis dalam Kompetisi Mahasiswa Informatika Politeknik Nasional (KMIPN) VI. No. Kredensial 1232/PL3/KM.05/03/2024.}
+
+\resumeSubHeadingListEnd
+
+%---------- ACTIVITIES ----------
+\section{Aktivitas \& Organisasi}
+\resumeSubHeadingListStart
+
+  \resumeProject
+    {\textbf{Ketua Bidang Pemrograman -- UKM POLICY (Linux Community)} $|$ \emph{Politeknik Negeri Lhokseumawe}}{2023 -- 2024}
+    {Mengembangkan kebutuhan aplikasi dan melakukan pemeliharaan (maintenance) situs web organisasi selama periode kepengurusan.}
+
+  \resumeProject
+    {\textbf{Anggota Divisi Digihub -- Komit PNL} $|$ \emph{Politeknik Negeri Lhokseumawe}}{2024 -- 2025}
+    {Merancang dan menyediakan aset visual kreatif serta materi publikasi digital berkualitas tinggi untuk mendukung seluruh kegiatan dan branding organisasi.}
+
+\resumeSubHeadingListEnd
+
+%---------- LANGUAGES ----------
+\section{Bahasa}
+\begin{itemize}[leftmargin=0in, label={}, nosep]
+  \small\item{
+    \textbf{Indonesia}{: Penutur Asli} \quad | \quad
+    \textbf{Inggris}{: A1 -- Pemula (Beginner)}
+  }
+\end{itemize}
+
+%-------------------------------------------
+\end{document}

@@ -1,19 +1,14 @@
 {
   "latex-workshop.latex.outDir": "%DIR%/build",
-  "latex-workshop.latex.tools": [
+  "latex-workshop.latex.recipes": [
     {
-      "name": "latexmk",
-      "command": "latexmk",
-      "args": [
-        "-synctex=1",
-        "-interaction=nonstopmode",
-        "-file-line-error",
-        "-pdf",
-        "-outdir=%OUTDIR%",
-        "%DOC%"
-      ],
-      "env": {}
-    },
+      "name": "pdflatex",
+      "tools": [
+        "pdflatex"
+      ]
+    }
+  ],
+  "latex-workshop.latex.tools": [
     {
       "name": "pdflatex",
       "command": "pdflatex",
